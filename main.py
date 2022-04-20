@@ -25,7 +25,7 @@ def number_check():
             elif choice_random <= choice_number_1:
                 print(f"{choice_random} est en dessous de {choice_number_1}")
             elif choice_random >= choice_number_1:
-                print(f"{choice_random} est en dessous de {choice_number_1}")
+                print(f"{choice_random} est au dessus de {choice_number_2}")
         print(f"Voici la liste des nombres qui sont faux : {not_good_number} ")
         number_check()
 
