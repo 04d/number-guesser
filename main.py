@@ -6,11 +6,12 @@ not_good_number = []
 
 def replay_game(): 
     yes_or_no = str(input("Voulez vous rejouer ? [ Y / N ]: "))
-    if yes_or_no == "y" or "Y" in yes_or_no: 
+    if yes_or_no.lower() == "y":
         not_good_number.clear()
         os.system('cls||clear')
         menu_number()
-    elif yes_or_no == "n" or "N" in yes_or_no: 
+    elif yes_or_no.lower() == "n":
+        
         exit()
     else: 
         replay_game()
