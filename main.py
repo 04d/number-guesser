@@ -18,9 +18,7 @@ def replay_game():
 
 
 def menu_number():
-    global choice_number_1
-    global choice_number_2
-    global random_number
+    global choice_number_1, choice_number_2, random_number
     choice_number_1 = int(input("Veuillez entrer le premier nombre qui sera le nombre de départ : "))
     choice_number_2 = int(input("Veuillez entrer le deuxième nombre qui sera le nombre de d'arrivé : "))
     if choice_number_2 <= choice_number_1: 
